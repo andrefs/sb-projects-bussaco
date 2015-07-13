@@ -5,7 +5,7 @@ exports.config = {
         url           : 'http://bussaco.botoes.co',
         external_link : 'http://www.facebook.com/brunoaleixo',
         facebook: {
-            //id: "1016048086"
+            id: "1016048086"
         },
         google: {
             id: 'UA-65095731-1'
