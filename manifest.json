@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "name": "bussaco",
+        "manifest": {
+            "version": "v1"
+        }
+    },
+    "sources": [
+        {
+            "id": "P90v4a3VXS0",
+            "title": "Bélgica - Grupo H - Copa Aleixo",
+            "length": 402,
+            "dateDownloaded": "2015-07-13T22:26:05.953Z",
+            "size": 3769997,
+            "path": "./sources/P90v4a3VXS0.webm"
+        }
+    ],
+    "sounds": [
+        {
+            "id": "000001",
+            "version": 1,
+            "sourceID": "P90v4a3VXS0",
+            "paths": {
+                "mp3": "./sounds/000001.mp3",
+                "ogg": "./sounds/000001.ogg"
+            },
+            "startsAt": 370,
+            "length": 2,
+            "text": "Já podias ter dito, Seu Pé!",
+            "dateAdded": "2015-07-13T22:28:11.162Z",
+            "disabled": false
+        }
+    ]
+}
