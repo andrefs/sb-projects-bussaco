@@ -63,6 +63,17 @@
   }(document, 'script', 'facebook-jssdk'));</script>
 
         <div class="background"></div>
+        <div id="topbar">
+            <nav class="ink-navigation ink-grid ie7">
+                <ul class="menu horizontal black push-left medium-push-center small-push-center tiny-push-center">
+                    <li class="hide-all show-tiny show-small show-medium"><button class="fa fa-bars"></button></li>
+                    <li class="logoPlaceholder"><a href="http://botoes.co/" class="logoPlaceholder">Botoes.co</a></li>
+                </ul>
+                <ul class="menu horizontal black push-right hide-small hide-tiny hide-medium">
+                    <li><a href="" title=""></a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="content">
             <div class="ink-grid">
                 <div class="column-group gutters push-center">
@@ -71,8 +82,9 @@
                             <h1 class="t-large hide-medium hide-small hide-tiny">Botões Bussaco</h1>
                             <h1 class="t-small hide-xlarge hide-large">Botões Bussaco</h1>
                             <div class="column-group share-buttons all-100 push-left hide-xlarge hide-large">
-                                <div class="fb share">
-                                    <div class="fb-like pull-right" data-href="http://bussaco.botoes.co" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+		                        <!-- Facebook Like -->
+                                <div class="fb like">
+                                    <div class="fb-like" data-href="http://bussaco.botoes.co" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
                                 </div>
 		                        <!-- Twitter Share -->
                                 <div class="twitter share">
@@ -81,6 +93,25 @@
                             </div>
                         </header>
                         <div class="column-group xlarge-70 large-70  all-100 align-left">
+                                <!--button data-id="000002"><button-->
+                                <!-- div class="small-33 tiny-33 all-16">
+                                    <img src="holder.js/600x480/ink/auto">
+                                    <p class="quarter-top-space">"Sit down," Edwin counselled soothingly. "Granser's all right. He's just  gettin' to the Scarlet Death, ain't you, Granser? He's just goin' to  tell us about it right now. Sit down, Hare-Lip. Go ahead, Granser."</p>
+                                </div -->
+                                
+                                
+                                <div class="small-33 tiny-33 all-25 button" data-date="Tue Sep 22 2015 17:54:43 GMT+0100 (WEST)">
+                                    <audio class="escaxe" id="000002" preload="auto">
+                                        <source src="assets/./sounds/000002.mp3?v=1">
+                                        <source src="assets/./sounds/000002.ogg?v=1">
+                                    </audio>
+                                    <a name="000002" href="#000002" class="align-center">
+                                        <div class="button-image">
+                                            <img class="button" src="assets/imgs/button.svg">
+                                        </div>
+                                        <p class="button-text lead">Posso ter percebido mal, que almocei duas vezes peixe na semana passada e não estou a 100%</p>
+                                    </a>
+                                </div>
                                 <!--button data-id="000001"><button-->
                                 <!-- div class="small-33 tiny-33 all-16">
                                     <img src="holder.js/600x480/ink/auto">
@@ -101,7 +132,7 @@
                                     </a>
                                 </div>
                         </div>
-                        <div class="xlarge-25 large-25 hide-medium hide-small hide-tiny" style="position:relative;">
+                        <div id="right-column" class="xlarge-25 large-25 hide-medium hide-small hide-tiny">
                             <div class="face-container">
                                 <div class="face">
                                     <div class="face-image">
@@ -110,10 +141,12 @@
                                     <!-- img class="face speaking" src="assets/imgs/bg-sprite.png" /-->
                                     <!--p class="align-center">Beatriz Gosta</p-->
 
-                                    <div class="column-group share-buttons all-100 push-left">
-                                        <div class="fb share">
-                                            <div class="fb-like pull-right" data-href="http://bussaco.botoes.co" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                                    <div class="share-buttons all-100">
+		                                <!-- Facebook Like -->
+                                        <div class="fb like">
+                                            <div class="fb-like" data-href="http://bussaco.botoes.co" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
                                         </div>
+		                                <!-- Twitter Share -->
                                         <div class="twitter share">
                                             <a href="https://twitter.com/share" class="twitter-share-button pull-right" data-hashtags="">Tweet</a>
                                         </div>
